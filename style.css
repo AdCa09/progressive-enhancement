@@ -1,4 +1,6 @@
-
+*{
+    font-family:'Open Sans' ;
+}
 p{
     font-style: serif;
     font-size: 20px;
