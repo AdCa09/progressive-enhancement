@@ -1,0 +1,87 @@
+
+p{
+    font-style: serif;
+    font-size: 20px;
+    color: rgb(91, 91, 91);
+}
+a{
+    
+    text-decoration: none;
+    color: rgb(230, 104, 58);
+
+}
+ul{
+    list-style-type: none;
+}
+a:hover{
+    color: rgb(175, 232, 53);
+}
+a:visited{
+    color: rgb(225, 33, 219);
+}
+body{
+    width: 90%;
+    margin: 70px;
+    background-image: url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+   
+    
+}
+blockquote{
+    width: 50%;
+    font-size: 160%;
+    background-color: rgb(226, 224, 224);
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    margin: 80px ;
+}
+q{
+    font-style: italic;
+}
+.farmer{
+    border-left: 2px solid red;
+}
+.villagers{
+    border-left: 2px solid greenyellow;
+}
+
+h1{
+    background-color: yellow;
+}
+.good{
+   text-transform: capitalize;
+   color: greenyellow;
+
+}
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+table tr{
+    background-color: white;
+}
+ul > li > a > img{
+    padding-left: 20px;
+}
+ul > li{
+    margin: 25px;
+}
+img{
+    display: inline-block;
+    justify-content: right;
+    margin: 10px 80px 20px 10px
+}
+.notif{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    display: block;
+    right: 20px;
+    bottom: 20px;
+}
